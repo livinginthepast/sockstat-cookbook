@@ -1,42 +1,13 @@
 # sockstat-cookbook
 
-TODO: Enter the cookbook description here.
+Install sockstat from source. See https://github.com/bahamas10/illumos-sockstat for more information.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
-
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['sockstat']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+* SmartOS
 
 ## Usage
 
-### sockstat::default
-
-Include `sockstat` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[sockstat::default]"
-  ]
-}
 ```
-
-## License and Authors
-
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+include_recipe 'sockstat'
+```

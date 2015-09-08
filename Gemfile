@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
-gem 'test-kitchen'
+gem 'emeril'
 gem 'kitchen-vagrant'
+gem 'test-kitchen'
